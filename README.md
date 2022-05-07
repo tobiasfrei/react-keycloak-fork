@@ -4,10 +4,10 @@
 
 > React bindings for [Keycloak](https://www.keycloak.org/). Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for keycloak >=17 support.
 
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/core?label=npm%20%7C%20core)](https://www.npmjs.com/package/@react-keycloak-fork/core)
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/web?label=npm%20%7C%20web)](https://www.npmjs.com/package/@react-keycloak-fork/web)
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/ssr?label=npm%20%7C%20ssr)](https://www.npmjs.com/package/@react-keycloak-fork/ssr)
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/native?label=npm%20%7C%20native)](https://www.npmjs.com/package/@react-keycloak/native)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/core?label=npm%20%7C%20core)](https://www.npmjs.com/package/@react-keycloak-fork/core)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/web?label=npm%20%7C%20web)](https://www.npmjs.com/package/@react-keycloak-fork/web)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/ssr?label=npm%20%7C%20ssr)](https://www.npmjs.com/package/@react-keycloak-fork/ssr)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/native?label=npm%20%7C%20native)](https://www.npmjs.com/package/@react-keycloak-fork/native)
 
 [![License](https://img.shields.io/github/license/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak-fork/blob/master/LICENSE.md)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
@@ -42,22 +42,18 @@ React Keycloak for Web requires:
 - `keycloak-js` **17.0.0** or later
 
 ```shell
-yarn add @react-keycloak/web
+yarn add @react-keycloak-fork/web
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/web
+npm install --save @react-keycloak-fork/web
 ```
 
 or as a `UMD` package through `unpkg`
 
-- one for development: https://unpkg.com/@react-keycloak/web@latest/dist/umd/react-keycloak-web.js
-
-- one for production: https://unpkg.com/@react-keycloak/web@latest/dist/umd/react-keycloak-web.min.js
-
-See `@react-keycloak/web` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/web/README.md) for complete documentation.
+See `@react-keycloak-fork/web` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/web/README.md) for complete documentation.
 
 ### SSR
 
@@ -70,16 +66,16 @@ React Keycloak for SSR frameworks requires:
 - `keycloak-js` **17.0.0** or later
 
 ```shell
-yarn add @react-keycloak/ssr
+yarn add @react-keycloak-fork/ssr
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/ssr
+npm install --save @react-keycloak-fork/ssr
 ```
 
-See `@react-keycloak/ssr` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/ssr/README.md) for complete documentation.
+See `@react-keycloak-fork/ssr` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/ssr/README.md) for complete documentation.
 
 ### React Native
 
@@ -88,28 +84,28 @@ React Keycloak for React Native requires React Native **61.0** or later
 To install run
 
 ```shell
-yarn add @react-keycloak/native
+yarn add @react-keycloak-fork/native
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/native
+npm install --save @react-keycloak-fork/native
 ```
 
-See `@react-keycloak/native` package [README](https://github.com/react-keycloak/react-native-keycloak/blob/master/README.md) for complete documentation.
+See `@react-keycloak-fork/native` package [README](https://github.com/react-keycloak/react-native-keycloak/blob/master/README.md) for complete documentation.
 
 ## Support
 
 | version | keycloak-js version |
 | ------- | ------------------- |
-| v4.0.0+ | 17.0.0+             | (fork)
+| v4.0.1+ | 17.0.0+             | (fork)
 | v2.0.0+ | 9.0.2+              |
 | v1.x    | >=8.0.2 <9.0.2      |
 
 ## Examples
 
-See [`@react-keycloak/react-keycloak-examples`](https://github.com/react-keycloak/react-keycloak-examples) repository for various demo implementing this library main features.
+See [`@react-keycloak-fork/react-keycloak-examples`](https://github.com/react-keycloak/react-keycloak-examples) repository for various demo implementing this library main features.
 
 ## Alternatives
 
