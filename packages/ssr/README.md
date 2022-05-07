@@ -2,7 +2,7 @@
 
 # React Keycloak <!-- omit in toc -->
 
-> SSR bindings for [Keycloak](https://www.keycloak.org/)
+> SSR bindings for [Keycloak](https://www.keycloak.org/). Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for keycloak >=17 support.
 
 [![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/ssr?label=npm%20%7C%20ssr)](https://www.npmjs.com/package/@react-keycloak-fork/ssr)
 

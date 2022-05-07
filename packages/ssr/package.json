@@ -2,7 +2,7 @@
   "name": "@react-keycloak-fork/ssr",
   "version": "4.0.0",
   "license": "MIT",
-  "description": "Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages. SSR bindings for Keycloak javascript adapter",
+  "description": "Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for keycloak >=17 support. SSR bindings for Keycloak javascript adapter",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobiasfrei/react-keycloak-fork.git"

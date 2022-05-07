@@ -2,7 +2,7 @@
   "name": "@react-keycloak-fork/web",
   "version": "4.0.0",
   "license": "MIT",
-  "description": "React bindings for Keycloak javascript adapter. Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for Keycloak >=17 Support.",
+  "description": "Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for keycloak >=17 support.  React bindings for Keycloak javascript adapter.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tobiasfrei/react-keycloak-fork.git"

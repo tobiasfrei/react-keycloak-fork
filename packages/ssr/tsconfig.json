@@ -21,9 +21,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "esModuleInterop": true,
-    "baseUrl": "./../",
+    "baseUrl": "./",
     "paths": {
-      "@react-keycloak-fork/core/*": ["./core/*"]
+      "@react-keycloak-fork/core": ["../core"]
     }
   },
   "include": [
