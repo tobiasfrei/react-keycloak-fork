@@ -1,7 +1,9 @@
 /* istanbul ignore file */
-
+/**
+ * @jest-environment jsdom
+ */
 import * as React from 'react'
-
+import { setImmediate } from 'timers'
 import { IAuthContextProps } from '../src/context'
 import { AuthClient } from '../src/types'
 

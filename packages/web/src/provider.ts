@@ -1,4 +1,4 @@
-import { createAuthProvider } from '@react-keycloak/core'
+import { createAuthProvider } from '@react-keycloak-fork/core'
 
 import { reactKeycloakWebContext } from './context'
 

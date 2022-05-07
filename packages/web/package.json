@@ -1,17 +1,17 @@
 {
-  "name": "@react-keycloak/web",
-  "version": "3.4.0",
+  "name": "@react-keycloak-fork/web",
+  "version": "4.0.0",
   "license": "MIT",
-  "description": "React bindings for Keycloak javascript adapter",
+  "description": "React bindings for Keycloak javascript adapter. Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for Keycloak >=17 Support.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-keycloak/react-keycloak.git"
+    "url": "git+https://github.com/tobiasfrei/react-keycloak-fork.git"
   },
-  "author": "Mattia Panzeri <mattia.panzeri93@gmail.com>",
+  "author": "Tobias Frei <mail@tobiasfrei.ch>",
   "bugs": {
-    "url": "https://github.com/react-keycloak/react-keycloak/issues"
+    "url": "https://github.com/tobiasfrei/react-keycloak-fork/react-keycloak/issues"
   },
-  "homepage": "https://github.com/react-keycloak/react-keycloak#readme",
+  "homepage": "https://github.com/tobiasfrei/react-keycloak-fork#readme",
   "keywords": [
     "react",
     "keycloak",
@@ -47,9 +47,9 @@
     "prepublishOnly": "npm run build && cp ../../LICENSE.md ."
   },
   "peerDependencies": {
-    "keycloak-js": ">=9.0.2",
-    "react": ">=16.8",
-    "react-dom": ">=16.8",
+    "keycloak-js": ">=17.0.0",
+    "react": ">=18.0",
+    "react-dom": ">=18.0",
     "typescript": ">=3.8"
   },
   "peerDependenciesMeta": {
@@ -58,8 +58,8 @@
     }
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.0",
-    "@react-keycloak/core": "file:../core",
+    "@babel/runtime": "^7.17.9",
+    "@react-keycloak-fork/core": "file:../core",
     "hoist-non-react-statics": "^3.3.2"
   },
   "jest": {

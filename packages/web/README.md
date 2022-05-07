@@ -4,7 +4,7 @@
 
 > React bindings for [Keycloak](https://www.keycloak.org/)
 
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/web?label=npm%20%7C%20web)](https://www.npmjs.com/package/@react-keycloak/web)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/web?label=npm%20%7C%20web)](https://www.npmjs.com/package/@react-keycloak-fork/web)
 
 [![License](https://img.shields.io/github/license/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak/blob/master/LICENSE.md)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
@@ -35,17 +35,17 @@
 
 React Keycloak requires:
 
-- React **16.8** or later
-- `keycloak-js` **9.0.2** or later
+- React **18.0** or later
+- `keycloak-js` **17.0.0** or later
 
 ```shell
-yarn add @react-keycloak/web
+yarn add @react-keycloak-fork/web
 ```
 
 or
 
 ```shell
-npm install --save @react-keycloak/web
+npm install --save @react-keycloak-fork/web
 ```
 
 ## Getting Started
@@ -69,7 +69,7 @@ export default keycloak
 Wrap your App inside `ReactKeycloakProvider` and pass the `keycloak` instance as prop
 
 ```js
-import { ReactKeycloakProvider } from '@react-keycloak/web'
+import { ReactKeycloakProvider } from '@react-keycloak-fork/web'
 
 import keycloak from './keycloak'
 
@@ -141,7 +141,7 @@ const App = () => {
 When a component requires access to `Keycloak`, you can use the `useKeycloak` Hook.
 
 ```js
-import { useKeycloak } from '@react-keycloak/web'
+import { useKeycloak } from '@react-keycloak-fork/web'
 
 export default () => {
   // Using Object destructuring
@@ -174,11 +174,11 @@ The instance will be initialized by `react-keycloak` but you'll need to be caref
 
 ## Examples
 
-See inside `examples` folder of [`@react-keycloak/react-keycloak-examples`](https://github.com/react-keycloak/react-keycloak-examples) repository for various demo implementing this library main features.
+See inside `examples` folder of [`@react-keycloak-fork/react-keycloak-examples`](https://github.com/react-keycloak/react-keycloak-examples) repository for various demo implementing this library main features.
 
 ## Guides and Articles
 
-- Migration guide for `@react-keycloak/web` `v2.x to v3.x` can be found here [MIGRATION.md](https://github.com/react-keycloak/react-keycloak/blob/master/packages/web/MIGRATION.md).
+- Migration guide for `@react-keycloak-fork/web` `v2.x to v3.x` can be found here [MIGRATION.md](https://github.com/react-keycloak/react-keycloak/blob/master/packages/web/MIGRATION.md).
 
 - [Secure React Routes & Component with Keycloak](https://medium.com/@cagline/authenticate-and-authorize-react-routes-component-with-keycloak-666e85662636), a (slightly outdated) guide on how to setup `Keycloak` and create secured contents in a `React` app, thanks to [@cagline](https://github.com/cagline) for the detailed article.
 

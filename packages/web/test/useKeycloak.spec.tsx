@@ -1,5 +1,5 @@
-import React from 'react'
-import { renderHook } from '@testing-library/react-hooks'
+import React, { JSXElementConstructor, ReactElement } from 'react'
+import { renderHook } from '@testing-library/react'
 
 import { createKeycloakStub } from './test-utils'
 
@@ -10,7 +10,7 @@ afterEach(require('@testing-library/react').cleanup)
 const createHookWrapper = () => ({
   children,
 }: {
-  children: React.ComponentType<unknown>
+  children: ReactElement<any, string | JSXElementConstructor<any>>
 }) => (
   <ReactKeycloakProvider authClient={createKeycloakStub()}>
     {children}

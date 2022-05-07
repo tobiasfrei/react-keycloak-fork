@@ -1,18 +1,18 @@
 ![React Keycloak](/art/react-keycloak-logo.png?raw=true 'React Keycloak Logo')
 
-# React Keycloak <!-- omit in toc -->
+# React Keycloak (Keycloak >=v17 Fork) <!-- omit in toc -->
 
-> React bindings for [Keycloak](https://www.keycloak.org/)
+> React bindings for [Keycloak](https://www.keycloak.org/). Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for keycloak >=v17 support.
 
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/core?label=npm%20%7C%20core)](https://www.npmjs.com/package/@react-keycloak/core)
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/web?label=npm%20%7C%20web)](https://www.npmjs.com/package/@react-keycloak/web)
-[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/ssr?label=npm%20%7C%20ssr)](https://www.npmjs.com/package/@react-keycloak/ssr)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/core?label=npm%20%7C%20core)](https://www.npmjs.com/package/@react-keycloak-fork/core)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/web?label=npm%20%7C%20web)](https://www.npmjs.com/package/@react-keycloak-fork/web)
+[![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/ssr?label=npm%20%7C%20ssr)](https://www.npmjs.com/package/@react-keycloak-fork/ssr)
 [![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak/native?label=npm%20%7C%20native)](https://www.npmjs.com/package/@react-keycloak/native)
 
-[![License](https://img.shields.io/github/license/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak-fork/blob/master/LICENSE.md)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![GitHub contributors](https://img.shields.io/github/contributors/react-keycloak/react-keycloak)](https://github.com/react-keycloak/react-keycloak/graphs/contributors)
-[![Github Issues](https://img.shields.io/github/issues/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak/issues) ![npm](https://img.shields.io/npm/dm/@react-keycloak/core)
+[![GitHub contributors](https://img.shields.io/github/contributors/react-keycloak/react-keycloak)](https://github.com/react-keycloak/react-keycloak-fork/graphs/contributors)
+[![Github Issues](https://img.shields.io/github/issues/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak/issues) ![npm](https://img.shields.io/npm/dm/@react-keycloak-fork/core)
 
 [![Gitter](https://img.shields.io/gitter/room/react-keycloak/community)](https://gitter.im/react-keycloak/community)
 
@@ -39,7 +39,7 @@
 React Keycloak for Web requires:
 
 - React **16.0** or later
-- `keycloak-js` **9.0.2** or later
+- `keycloak-js` **17.0.0** or later
 
 ```shell
 yarn add @react-keycloak/web
@@ -67,7 +67,7 @@ React Keycloak for SSR frameworks requires:
 - SSR Framework:
   - NextJS **9** or later
   - Razzle **3** or later
-- `keycloak-js` **9.0.2** or later
+- `keycloak-js` **17.0.0** or later
 
 ```shell
 yarn add @react-keycloak/ssr
@@ -103,6 +103,7 @@ See `@react-keycloak/native` package [README](https://github.com/react-keycloak/
 
 | version | keycloak-js version |
 | ------- | ------------------- |
+| v4.0.0+ | 17.0.0+             | (fork)
 | v2.0.0+ | 9.0.2+              |
 | v1.x    | >=8.0.2 <9.0.2      |
 

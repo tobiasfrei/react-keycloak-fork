@@ -20,7 +20,11 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "@react-keycloak-fork/core": ["../core"]
+    }
   },
   "include": [
     "src"

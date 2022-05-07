@@ -14,8 +14,8 @@
 The main `KeycloakProvider` was renamed to `ReactKeycloakProvider`.
 
 ```ts
-- import { KeycloakProvider } from '@react-keycloak/web'
-+ import { ReactKeycloakProvider } from '@react-keycloak/web'
+- import { KeycloakProvider } from '@react-keycloak-fork/web'
++ import { ReactKeycloakProvider } from '@react-keycloak-fork/web'
 ```
 
 ### Rename ReactKeycloakProvider parameters

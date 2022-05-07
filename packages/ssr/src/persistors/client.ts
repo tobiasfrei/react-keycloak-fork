@@ -1,4 +1,4 @@
-import type { AuthClientTokens } from '@react-keycloak/core'
+import type { AuthClientTokens } from '@react-keycloak-fork/core'
 
 import type { TokenPersistor } from './types'
 import { getCookie, removeCookie, setCookie } from './utils'

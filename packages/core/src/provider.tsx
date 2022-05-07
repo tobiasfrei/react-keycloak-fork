@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { ReactNode } from 'react'
 import isEqual from 'react-fast-compare'
 
 import { IAuthContextProps } from './context'
@@ -18,6 +19,11 @@ export type AuthProviderProps<T extends AuthClient> = {
    * The single AuthClient instance to be used by your application.
    */
   authClient: T
+
+  /**
+   * The single AuthClient instance to be used by your application.
+   */
+  children: React.JSXElementConstructor<{children: React.ReactElement | ReactNode | Element }> | any
 
   /**
    * A flag to enable automatic token refresh. Defaults to true.

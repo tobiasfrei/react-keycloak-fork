@@ -1,4 +1,4 @@
-import type { AuthClient } from '@react-keycloak/core'
+import type { AuthClient } from '@react-keycloak-fork/core'
 import type { KeycloakConfig } from 'keycloak-js'
 
 import type { TokenPersistor } from '../persistors/types'
@@ -29,7 +29,7 @@ export const getKeycloakStub = (persistor: TokenPersistor): AuthClient => {
   return keycloakStubInstance
 }
 
-const Keycloak = !isServer() ? require('keycloak-js') : null
+const Keycloak = !isServer() ? require('keycloak-js').default : null
 
 export const getKeycloakInstance = (
   keycloakConfig: KeycloakConfig,
@@ -39,7 +39,7 @@ export const getKeycloakInstance = (
   const isServerCheck = isServer()
 
   if (recreate || (!keycloakInstance && !isServerCheck)) {
-    keycloakInstance = new Keycloak(keycloakConfig)
+    keycloakInstance = Keycloak(keycloakConfig)
   }
 
   return !isServerCheck ? keycloakInstance : getKeycloakStub(persistor!)

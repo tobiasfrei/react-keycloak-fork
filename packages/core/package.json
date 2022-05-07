@@ -1,20 +1,21 @@
 {
-  "name": "@react-keycloak/core",
-  "version": "3.2.0",
+  "name": "@react-keycloak-fork/core",
+  "version": "4.0.0",
   "license": "MIT",
-  "description": "React bindings for Keycloak javascript adapter (core)",
+  "description": "Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages. React bindings for Keycloak javascript adapter (core)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-keycloak/react-keycloak.git"
+    "url": "git+https://github.com/tobiasfrei/react-keycloak-fork.git"
   },
-  "author": "Mattia Panzeri <mattia.panzeri93@gmail.com>",
+  "author": "Tobias Frei <mail@tobiasfrei.ch>",
   "bugs": {
-    "url": "https://github.com/react-keycloak/react-keycloak/issues"
+    "url": "https://github.com/tobiasfrei/react-keycloak-fork/react-keycloak/issues"
   },
-  "homepage": "https://github.com/react-keycloak/react-keycloak#readme",
+  "homepage": "https://github.com/tobiasfrei/react-keycloak-fork#readme",
   "keywords": [
     "react",
-    "keycloak"
+    "keycloak",
+    "fork"
   ],
   "main": "lib-commonjs/index.js",
   "jsnext:main": "lib/index.js",

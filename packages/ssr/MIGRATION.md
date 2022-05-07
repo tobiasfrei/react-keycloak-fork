@@ -15,8 +15,8 @@ The `ServerPersistors` and `ClientPersistors` are now top-level exports.
 For **NextJS**
 
 ```ts
-- import { SSRKeycloakProvider, ServerPersistors } from '@react-keycloak/ssr'
-+ import { SSRKeycloakProvider, SSRCookies } from '@react-keycloak/ssr';
+- import { SSRKeycloakProvider, ServerPersistors } from '@react-keycloak-fork/ssr'
++ import { SSRKeycloakProvider, SSRCookies } from '@react-keycloak-fork/ssr';
 
   ...
 
@@ -34,8 +34,8 @@ For **Razzle**
 - `server.js`
 
 ```js
-- import { ServerPersistors, SSRKeycloakProvider } from '@react-keycloak/ssr'
-+ import { ExpressCookies, SSRKeycloakProvider } from '@react-keycloak/ssr'
+- import { ServerPersistors, SSRKeycloakProvider } from '@react-keycloak-fork/ssr'
++ import { ExpressCookies, SSRKeycloakProvider } from '@react-keycloak-fork/ssr'
 
   ...
 
@@ -49,8 +49,8 @@ For **Razzle**
 - `client.js`
 
 ```js
-- import { ClientPersistors, SSRKeycloakProvider } from '@react-keycloak/ssr'
-+ import { Cookies, SSRKeycloakProvider } from '@react-keycloak/ssr'
+- import { ClientPersistors, SSRKeycloakProvider } from '@react-keycloak-fork/ssr'
++ import { Cookies, SSRKeycloakProvider } from '@react-keycloak-fork/ssr'
 
   ...
 

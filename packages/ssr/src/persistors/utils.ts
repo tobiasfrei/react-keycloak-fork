@@ -3,7 +3,7 @@ import Cookie from 'js-cookie'
 
 import { isServer } from '../internals/utils'
 
-export function setCookie(name: string, val: string | object) {
+export function setCookie(name: string, val: string) {
   return Cookie.set(name, val)
 }
 

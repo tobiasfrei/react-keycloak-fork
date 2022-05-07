@@ -21,7 +21,7 @@ export const createKeycloakStub = () => ({
   loadUserInfo: jest.fn(),
 })
 
-export const createChild = (testedProps: string[] = []): React.FC<unknown> => {
+export const createChild = (testedProps: string[] = []): React.FC<string> => {
   return (props) => (
     <div data-testid="keycloak">
       {Object.keys(props).filter((prop) => testedProps.includes(prop))}
