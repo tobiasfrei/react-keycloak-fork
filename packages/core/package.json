@@ -1,6 +1,6 @@
 {
   "name": "@react-keycloak-fork/core",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "license": "MIT",
   "description": "Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for Keycloak >=17. React bindings for Keycloak javascript adapter (core)",
   "repository": {

@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [4.0.2-fork](https://github.com/react-keycloak/react-keycloak/compare/master...tobiasfrei:master) (2022-05-07)
+# [4.0.3-fork](https://github.com/react-keycloak/react-keycloak/compare/master...tobiasfrei:master) (2022-05-07)
 # [3.3.0](https://github.com/react-keycloak/react-keycloak/compare/@react-keycloak/ssr@3.2.0...@react-keycloak/ssr@3.3.0) (2020-10-21)
 
 

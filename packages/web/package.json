@@ -1,6 +1,6 @@
 {
   "name": "@react-keycloak-fork/web",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "license": "MIT",
   "description": "Fork of https://github.com/react-keycloak/react-keycloak.git with updated packages for Keycloak >=17. React bindings for Keycloak javascript adapter.",
   "repository": {
@@ -48,8 +48,8 @@
   },
   "peerDependencies": {
     "keycloak-js": ">=17.0.0",
-    "react": ">=18.0",
-    "react-dom": ">=18.0",
+    "react": ">=16.0",
+    "react-dom": ">=16.0",
     "typescript": ">=3.8"
   },
   "peerDependenciesMeta": {
