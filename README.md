@@ -9,10 +9,10 @@
 [![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/ssr?label=npm%20%7C%20ssr)](https://www.npmjs.com/package/@react-keycloak-fork/ssr)
 [![NPM (scoped)](https://img.shields.io/npm/v/@react-keycloak-fork/native?label=npm%20%7C%20native)](https://www.npmjs.com/package/@react-keycloak-fork/native)
 
-[![License](https://img.shields.io/github/license/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak-fork/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/tobiasfrei/react-keycloak-fork.svg)](https://github.com/tobiasfrei/react-keycloak-fork/blob/master/LICENSE.md)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![GitHub contributors](https://img.shields.io/github/contributors/react-keycloak/react-keycloak)](https://github.com/react-keycloak/react-keycloak-fork/graphs/contributors)
-[![Github Issues](https://img.shields.io/github/issues/react-keycloak/react-keycloak.svg)](https://github.com/react-keycloak/react-keycloak/issues) ![npm](https://img.shields.io/npm/dm/@react-keycloak-fork/core)
+[![GitHub contributors](https://img.shields.io/github/contributors/tobiasfrei/react-keycloak-fork)](https://github.com/tobiasfrei/react-keycloak-fork/graphs/contributors)
+[![Github Issues](https://img.shields.io/github/issues/tobiasfrei/react-keycloak-fork.svg)](https://github.com/tobiasfrei/react-keycloak-fork/issues) ![npm](https://img.shields.io/npm/dm/@react-keycloak-fork/core)
 
 [![Gitter](https://img.shields.io/gitter/room/react-keycloak/community)](https://gitter.im/react-keycloak/community)
 
@@ -53,7 +53,7 @@ npm install --save @react-keycloak-fork/web
 
 or as a `UMD` package through `unpkg`
 
-See `@react-keycloak-fork/web` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/web/README.md) for complete documentation.
+See `@react-keycloak-fork/web` package [README](https://github.com/tobiasfrei/react-keycloak-fork/blob/master/packages/web/README.md) for complete documentation.
 
 ### SSR
 
@@ -75,7 +75,7 @@ or
 npm install --save @react-keycloak-fork/ssr
 ```
 
-See `@react-keycloak-fork/ssr` package [README](https://github.com/react-keycloak/react-keycloak/blob/master/packages/ssr/README.md) for complete documentation.
+See `@react-keycloak-fork/ssr` package [README](https://github.com/tobiasfrei/react-keycloak-fork/blob/master/packages/ssr/README.md) for complete documentation.
 
 ### React Native
 
